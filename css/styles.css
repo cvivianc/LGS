@@ -6,7 +6,7 @@
     text-align: left;
     background-color: white;
     color: black;
-font-size: 28px;
+    font-size: 28px;
 
 }
 
@@ -33,12 +33,27 @@ body {
 main {
     width: 90%;
     max-width: 1080px;
-    padding: 40px 0 0;
+    padding: 0px 0 0;
     margin: 0 auto;
 }
 
 h1 {
-    font-size: 5.25em;
+    font-size: 3.25em;
     color: white;
-    margin-left: 225px;
+    /* margin-left: 225px; */
+}
+
+.buttons {
+    padding: 100px;
+}
+
+.buttons ul li {
+    display: inline-flex;
+    list-style-type: none;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    padding: 2px;
+    color: #000;
+    border: 1px solid #000;
 }
