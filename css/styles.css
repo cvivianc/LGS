@@ -1,0 +1,21 @@
+
+body {
+    Color:bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    background-color: rgba(63, 165, 251, 1);
+   
+    }
+
+main {
+
+    width: 90%;
+    max-width: 1080px;
+    padding: 40px 0 0;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 5.25em;
+    margin-left: 225px;
+}
