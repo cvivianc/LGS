@@ -1,11 +1,12 @@
 
+
 .toolbar {
 
     padding: 20px;
     text-align: left;
     background-color: white;
     color: black;
-font-size: 24px;
+font-size: 28px;
 
 }
 
@@ -19,6 +20,7 @@ font-size: 24px;
 
   }
 
+
 body {
     Color: rgba(32, 20, 200, 0);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -27,8 +29,8 @@ body {
    
     }
 
-main {
 
+main {
     width: 90%;
     max-width: 1080px;
     padding: 40px 0 0;
@@ -37,5 +39,6 @@ main {
 
 h1 {
     font-size: 5.25em;
+    color: white;
     margin-left: 225px;
 }
