@@ -10,4 +10,5 @@
     add image asset   
     complete HTML    
  
-
+**25.05.22 Jordan**
+- created href link/buttons to take user to our Forum page (need to get peers to test on their device too)
