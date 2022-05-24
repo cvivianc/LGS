@@ -1,34 +1,46 @@
+/* Global text styles */
 
+.links {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #222222;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+    background: #446682;
+}
+
+
+/* Others */
 
 .toolbar {
-
     padding: 20px;
     text-align: left;
     background-color: white;
     color: black;
     font-size: 28px;
-
 }
 
 .header {
     padding: 70px;
     text-align: center;
     background: rgba(63, 165, 251, 1);
-    
     color: white;
     font-size: 34px;
-
-  }
-
+}
 
 body {
-    Color: rgba(32, 20, 200, 0);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-sizing: border-box;
     background-color: rgb(255, 255, 255);
-   
-    }
-
+}
 
 main {
     width: 90%;
@@ -37,17 +49,11 @@ main {
     margin: 0 auto;
 }
 
-h1 {
-    font-size: 3.25em;
-    color: white;
-    /* margin-left: 225px; */
-}
-
 .buttons {
     padding: 100px;
 }
 
-.buttons ul li {
+.buttons {
     display: inline-flex;
     list-style-type: none;
     width: 200px;
