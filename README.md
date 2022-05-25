@@ -11,4 +11,8 @@
     complete HTML    
  
 **25.05.22 Jordan**
-- created href link/buttons to take user to our Forum page (need to get peers to test on their device too)
+- Created href link/buttons to take user to our Forum page 
+- Created and then added logo to homepage
+- Added category logos and buttons (will change arrangment and had CSS to discussion board button)
+- Added magnifying glasses and help button
+- Uploaded arrow up button (Needs to be implemented into HTML)
