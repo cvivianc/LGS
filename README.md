@@ -11,7 +11,8 @@
     complete HTML    
  
 **25.05.22 Jordan**
-- created href link/buttons to take user to our Forum page 
+- Created href link/buttons to take user to our Forum page 
 - Created and then added logo to homepage
-- Started developing category logos and buttons
-- Added magnifying glasses
+- Added category logos and buttons (will change arrangment and had CSS to discussion board button)
+- Added magnifying glasses and help button
+- Uploaded arrow up button (Needs to be implemented into HTML)
