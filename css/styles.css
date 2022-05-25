@@ -3,7 +3,7 @@
 
 .Left {
 
-    margin-left:950px; 
+    margin-left:500px; 
     Margin-right:5px;
     
     text-align:left
@@ -13,11 +13,11 @@
     
     .MlEFT{ 
     
-        margin-left:750px; 
+        margin-left:450px; 
         Margin-right:5px;
     
         text-align:left
-    
+        padding: 20px;
     
     
     }
@@ -50,8 +50,12 @@ h1 {
 
 .BackTop {
     width: 20%;
-    height: 20%;
+    height: 30%;
     padding-left: 70%;
+    margin-left:200px; 
+    Margin-right:5px;
+
+  
 }
 
 .profile {
@@ -62,6 +66,13 @@ h1 {
 
 /* Others */
 
+.iconslist{
+
+    display: inline-flex;
+    list-style-type: inline-flex;
+    padding-right: 40px;
+
+}
 .MenuNab {
     height: 150px;
 }
@@ -87,6 +98,7 @@ h1 {
 
 .header {
     padding: 70px;
+
     text-align: center;
     background: rgba(63, 165, 251, 1);
     color: white;
@@ -107,8 +119,8 @@ main {
 }
 
 .buttons {
-    width: 90px;
-    height: 25px;
+    width: 200px;
+    height: 100px;
     border-radius: 12px;
     margin: 5px;
     background-color: rgba(251, 220, 126, 1);
@@ -116,25 +128,31 @@ main {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     color: #000;
     text-align: center;
-    text-decoration: none;
+    text-decoration: thick;
+    font-size: 20px;
+   
 }
 
 .icon {
 
 padding: 100px;
-
+display: inline-flex;
+list-style-type: none;
+padding-right: 40px;
 }
 
 .buttons {
     display: inline-flex;
     list-style-type: none;
-    width: 200px;
-    height: 200px;
+    width: 80px;
+    height: 40px;
     margin: 5px;
     padding: 2px;
     color: #000;
-    border: 1px solid #000;
+    border: none;
     cursor: pointer;
+    text-align: center;
+    
 }
 
 .FooterTab nav {
@@ -159,6 +177,8 @@ padding: 100px;
         font-size: 24px;
         cursor: pointer;
         list-style: none; 
+        align-items: center;
+       
     
     
     } 
