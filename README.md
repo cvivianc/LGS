@@ -13,3 +13,5 @@
 **25.05.22 Jordan**
 - created href link/buttons to take user to our Forum page 
 - Created and then added logo to homepage
+- Started developing category logos and buttons
+- Added magnifying glasses
