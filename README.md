@@ -28,5 +28,3 @@
     forum.html CSS   
     Logo image needs update?  
     
-
-
