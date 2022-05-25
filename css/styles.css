@@ -4,7 +4,7 @@
 .Left {
 
     margin-left:500px; 
-    Margin-right:5px;
+    Margin-right:;
     
     text-align:left
     
@@ -17,15 +17,14 @@
         Margin-right:5px;
     
         text-align:left
-        padding: 20px;
+      
     
-    
-    }
+    } 
 
 .links {
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 5px600;
     font-size: 16px;
     color: #222222;
 }
@@ -52,7 +51,7 @@ h1 {
     width: 20%;
     height: 30%;
     padding-left: 70%;
-    margin-left:200px; 
+    margin-left:120px; 
     Margin-right:5px;
 
   
@@ -68,11 +67,13 @@ h1 {
 
 .iconslist{
 
-    display: inline-flex;
-    list-style-type: inline-flex;
+    display: list-item;
+    list-style-type: circle ;
     padding-right: 40px;
 
 }
+
+
 .MenuNab {
     height: 150px;
 }
@@ -130,6 +131,7 @@ main {
     text-align: center;
     text-decoration: thick;
     font-size: 20px;
+    margin: auto;
    
 }
 
