@@ -13,14 +13,14 @@
 </head>
 
 <body>
-    <div class="MenuNav">
+    <div class="MenuNab">
         <nav>
             <ul class="NavList">
                 <li>
-                    <a href="index.html"><img id="logo" src="img/logo.png" alt="home button logo" width="60px" height="60px"></a>
+                    <a href="index.html"><img class="logo" src="img/logo.png" alt="home button logo" width="60px" height="60px"></a>
                 </li>
-                <li><a href="#" class="links">About Us</a></li>
-                <li><a href="forum.html" class="links">Forum</a></li>
+                <li><a href="index.html#AboutUs" class="links">About Us</a></li>
+                <li><a href="forum.html" class="links">Discussion Board</a></li>
                 <li><a href="#" class="links">Help</a></li>
             </ul>
         </nav>
@@ -32,21 +32,83 @@
         </div>
     </div>
 
-    <div class="BackTop">
-        <img class="BackTop" src="#" alt="back to top" />
-    </div>
+
 
     <main>
-        <div>
-            <h1>Discussion Forum</h1>
+        <header>
+            <h1>Discussion Board</h1>
+        </header>
+
+        <section id="CreatePost">
+            <small>Type Something......</small>
+            <button class="ForumButtons" type="submit">
+                Create Post
+            </button>
+        </section>
+
+        <section id="threads">
+            <div class="discussion">
+                <img src="img/profile.svg" alt="profile photo" class="profile" />
+                <p>Thoughts on the new Apple software update?</p>
+                <button class="ForumButtons" class="Reply" type="submit">
+                    Reply
+                </button>
+            </div>
+
+            <div class="discussion">
+                <img src="img/profile.svg" alt="profile photo" class="profile" />
+                <p>Anyone recieved an email saying the owe a large sum of money to the Hamiltion council? I’m in Nelson!</p>
+                <button class="ForumButtons" class="Reply" type="submit">
+                    Reply
+                </button>
+            </div>
+
+            <div class="discussion">
+                <img src="img/profile.svg" alt="profile photo" class="profile" />
+                <p>Would totally reccommend getting in contact with the website creators if the information is not clear!</p>
+                <button class="ForumButtons" class="Reply" type="submit">
+                    Reply
+                </button>
+            </div>
+
+            <div class="discussion">
+                <img src="img/profile.svg" alt="profile photo" class="profile" />
+                <p>Not a fan of the new update.</p>
+                <button class="ForumButtons" class="Reply" type="submit">
+                    Reply
+                </button>
+            </div>
+
+            <div class="discussion">
+                <img src="img/profile.svg" alt="profile photo" class="profile" />
+                <p>Warning new scam circling around via email!</p>
+                <button class="ForumButtons" class="Reply" type="submit">
+                    Reply
+                </button>
+            </div>
+
+            <div class="discussion">
+                <img src="img/profile.svg" alt="profile photo" class="profile" />
+                <p>So how is everyone today? </p>
+                <button class="ForumButtons" class="Reply" type="submit">
+                    Reply
+                </button>
+            </div>
+
+        </section>
+
+        <div class="BackTop">
+            <img class="BackTop" src="img/top.svg" alt="back to top" />
         </div>
 
     </main>
     <footer class="FooterTab">
         <nav>
+
+            <img src="img/logo.png" alt="logo" width="60" height="60" class="centre">
+
             <ul class="NavList">
-                <!-- ADD IMG LINK <li><a href="#"><img id = "logo" src="" alt="home button" ></a></li> -->
-                <li><a href="#" class="links">About Us</a></li>
+                <li><a href="index.html#AboutUs" class="links">About Us</a></li>
                 <li><a href="#" class="links">Contact Us</a></li>
                 <li><a href="#" class="links">Site map</a></li>
                 <li><a href="#" class="links">Help</a></li>
