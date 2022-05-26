@@ -1,10 +1,18 @@
 /* Global text styles */
 
+.Left {
+    margin-left: 500px;
+    text-align: left
+}
+
+.MlEFT {
+    margin-left: 450px;
+    Margin-right: 5px;
+    text-align: left
+}
+
 .links {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
+    font: normal 600 1em 'Inter';
     color: #222222;
 }
 
@@ -14,13 +22,63 @@
     margin-right: auto;
 }
 
+#paragraph p {
+    font: normal 400 1em 'Inter';
+    line-height: 150%;
+    color: #222;
+}
+
+p {
+    font: normal 600 1.5em 'Inter';
+    line-height: 29px;
+}
+
 h1 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
+    font: normal 700 3em 'Inter';
+}
+
+
+/* heading banners */
+
+header {
+    background: #4E96CF;
+    width: 100%;
     color: #FFFFFF;
-    background: #446682;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1:after {
+    /* yellow line */
+    content: "";
+    display: block;
+    width: 10em;
+    max-width: 70%;
+    border-bottom: 0.2em solid #F3C577;
+    border-radius: 5px;
+    margin: 0.5em auto -0.5em;
+    stroke-linejoin: round;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/* Images style */
+
+.BackTop {
+    width: 20%;
+    height: 30%;
+    padding-left: 70%;
+    margin-left: 120px;
+    Margin-right: 5px;
+}
+
+.profile {
+    width: 50px;
+    height: 50px;
 }
 
 
@@ -39,6 +97,41 @@ h1 {
 
 
 /* Others */
+
+
+#CreatePost {
+    margin: auto;
+    padding: auto;
+    font: normal 500 16px 'Inter';
+    line-height: 7em;
+    border: 8px solid #446682;
+    filter: drop-shadow(0px 3.51394px 3.51394px rgba(0, 0, 0, 0.25));
+    border-radius: 30px;
+    color: #222;
+}
+
+#CreatePost small {
+    padding: 1% 75% 10% 1%;
+    ;
+}
+
+.discussion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 55px;
+    font: normal 500 16px 'Inter';
+    color: #222;
+}
+
+.iconslist {
+    display: list-item;
+    list-style-type: circle;
+    padding-right: 40px;
+}
+
 
 .MenuNab {
     height: 150px;
@@ -63,20 +156,6 @@ h1 {
     font-size: 28px;
 }
 
-.header {
-    padding: 70px;
-    text-align: center;
-    background: rgba(63, 165, 251, 1);
-    color: white;
-    font-size: 34px;
-}
-
-body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    box-sizing: border-box;
-    background-color: rgb(255, 255, 255);
-}
-
 main {
     width: 90%;
     max-width: 1080px;
@@ -85,20 +164,58 @@ main {
 }
 
 .buttons {
+    width: 200px;
+    height: 100px;
+    border-radius: 12px;
+    margin: 5px;
+    background-color: rgba(251, 220, 126, 1);
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #000;
+    text-align: center;
+    text-decoration: thick;
+    font-size: 20px;
+    margin: auto;
+}
+
+.icon {
     padding: 100px;
+    display: inline-flex;
+    list-style-type: none;
+    padding-right: 40px;
 }
 
 .buttons {
     display: inline-flex;
     list-style-type: none;
-    width: 200px;
-    height: 200px;
+    width: 80px;
+    height: 40px;
     margin: 5px;
     padding: 2px;
     color: #000;
-    border: 1px solid #000;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font: normal 600 1em 'Inter';
 }
 
 .FooterTab nav {
     text-align: center;
+}
+
+.DBButton {
+    width: 300px;
+    height: 100px;
+    border-radius: 12px;
+    margin: 5px;
+    background-color: rgba(251, 220, 126, 1);
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    cursor: pointer;
+    list-style: none;
+    align-items: center;
 }
