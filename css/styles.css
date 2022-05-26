@@ -82,7 +82,22 @@ h1:after {
 }
 
 
+/* Images style */
+
+.BackTop {
+    width: 20%;
+    height: 20%;
+    padding-left: 70%;
+}
+
+.profile {
+    width: 10%;
+    height: 10%;
+}
+
+
 /* Others */
+
 
 #CreatePost {
     margin: auto;
@@ -116,6 +131,7 @@ h1:after {
     list-style-type: circle;
     padding-right: 40px;
 }
+
 
 .MenuNab {
     height: 150px;
