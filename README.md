@@ -44,3 +44,15 @@
 :white_square_button: To Do   
     grid or flex for discussion  
   continue css  
+
+**27.05.22 Vivian**   
+:ballot_box_with_check: Done   
+    Create post input style  
+    Heading banner across pages  
+    add button img  
+    ! [before img] (/process/process.2.png)  
+    ! [after img] (/process/process.1.png)  
+
+:white_square_button: To Do   
+    responsive style  
+    finish discussion grid layout  
