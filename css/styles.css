@@ -100,9 +100,34 @@ h1:after {
 }
 
 #CreatePost small {
-    padding: 1% 75% 10% 1%;
-    ;
+    padding-left: 1em;
+
 }
+
+.inputgrid {
+    display: grid;
+    grid-template-columns: 0.4fr repeat(6, 0.2fr) 0.01fr;
+    grid-template-rows: 0.01fr 0.1fr; 
+    grid-column-gap: 10px;
+    grid-row-gap: 10px; 
+    }
+    
+    .input1{
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+.createbutton { 
+    grid-area:  2 / 7 / 3 / 8; 
+  width: 150%;
+  max-width: 200%;
+
+    
+}
+
+
+    
+
+
 
 .discussion {
     display: flex;
