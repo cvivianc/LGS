@@ -141,6 +141,7 @@ padding: 100px;
 display: inline-flex;
 list-style-type: none;
 padding-right: 40px;
+/* cursor: pointer; */
 }
 
 .buttons {
