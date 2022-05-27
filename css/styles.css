@@ -1,5 +1,9 @@
 /* Global text styles */
 
+body {
+    margin: 0px;
+}
+
 .Left {
     margin-left: 500px;
     text-align: left
@@ -82,22 +86,7 @@ h1:after {
 }
 
 
-/* Images style */
-
-.BackTop {
-    width: 20%;
-    height: 20%;
-    padding-left: 70%;
-}
-
-.profile {
-    width: 10%;
-    height: 10%;
-}
-
-
 /* Others */
-
 
 #CreatePost {
     margin: auto;
@@ -132,28 +121,18 @@ h1:after {
     padding-right: 40px;
 }
 
-
 .MenuNab {
-    height: 150px;
+    background-color: #FFF;
+    height: 100px;
+    margin: 0px 0px 20px;
 }
 
 .NavList {
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     list-style-type: none;
-    padding-right: 40px;
-}
-
-.NavList li {
-    padding: 0 25px;
-    margin: 20px 0;
-}
-
-.toolbar {
-    padding: 20px;
-    text-align: left;
-    background-color: white;
-    color: black;
-    font-size: 28px;
+    padding: 1% 2%;
 }
 
 main {
