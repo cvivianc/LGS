@@ -43,5 +43,28 @@
 
 :white_square_button: To Do   
     grid or flex for discussion  
-    continue css  
+  continue css  
 
+**27.05.22 Vivian**   
+:ballot_box_with_check: Done   
+    Create post input style  
+    Heading banner across pages  
+    add button img  :point_down:  
+   :point_right: <img src="/process/process.2.png" alt="process" width="450" height="270">  
+    
+ :point_right:  <img src="/process/process.1.png" alt="process" width="450" height="300">  
+
+:white_square_button: To Do   
+    responsive style  
+    finish discussion grid layout  
+
+
+**->29.05.22 Thomas**
+- improved formatting header / footer 
+- 'back to top' button working
+- index.html formatting
+
+need to:
+=> fix header logo and zoom button positioning
+=> incorporate whitespace throughout index.html
+=> make css more efficient
