@@ -4,17 +4,6 @@ body {
   margin-top: 64px;
 }
 
-.Left {
-  margin-left: 500px;
-  text-align: left;
-}
-
-.MlEFT {
-  margin-left: 450px;
-  margin-right: 5px;
-  text-align: left;
-}
-
 .links {
   font: normal 600 1em "Inter";
   color: #222222;
@@ -70,11 +59,10 @@ h1:after {
 /* Images style */
 
 .BackTop {
-  width: 20%;
-  height: 30%;
-  padding-left: 70%;
-  margin-left: 120px;
-  margin-right: 5px;
+  display: flex;
+  position: fixed;
+  top: 90%;
+  left: 95%;
 }
 
 .profile {
