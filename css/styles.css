@@ -1,7 +1,7 @@
 /* Global text styles */
 
 body {
-  margin: 0px;
+  margin-top: 64px;
 }
 
 .Left {
@@ -140,17 +140,21 @@ max-height: 15vw;
 }
 
 .MenuNab {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
   background-color: #fff;
-  height: 100px;
-  margin: 0px 0px 20px;
+  overflow: auto;
+  height: auto;
 }
 
-.NavList {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  list-style-type: none;
-  padding: 1% 2%;
+.Nav-left {
+  flex: 1 1 200px;
+}
+
+.Nav-right {
+
 }
 
 /* main {
