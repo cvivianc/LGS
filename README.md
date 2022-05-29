@@ -33,5 +33,15 @@
 - Readded assets for icons and added buttons. 
 - Need to:
       - Put category headings in-line with icons.
-      - Move discussion board button to centre + get rid of underline.
-     
+      - Move discussion board button to centre + get rid of underline.   
+
+**26.05.22 Vivian**   
+:ballot_box_with_check: Done   
+    Fix img link  
+    Update discussion box css  
+    Add heading box    
+
+:white_square_button: To Do   
+    grid or flex for discussion  
+    continue css  
+
