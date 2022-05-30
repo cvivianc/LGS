@@ -76,4 +76,10 @@ need to:
 to do:
 
 - fix icon display to fill gaps
-- header for discussion board link
+- header for discussion board link  
+
+**Vivian 30.5.22**  
+:ballot_box_with_check: Done    
+    Made the create post input field work but break all the styles :imp:  
+
+:white_square_button: To Do   
