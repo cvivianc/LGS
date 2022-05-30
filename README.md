@@ -69,7 +69,7 @@ need to:
 => incorporate whitespace throughout index.html
 => make css more efficient
 
-Jordan 30.5.22
+**Jordan 30.5.22**
 
 - Merged branches
 
