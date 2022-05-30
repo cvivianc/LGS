@@ -113,9 +113,9 @@ h1:after {
     grid-area: 2 / 7 / 3 / 8;
     width: 150%;
     max-width: 200%;
-    position: absolute;
+    /* position: absolute;
     top: -20px;
-    left: 10px;
+    left: 10px; */
 }
 
 
