@@ -159,6 +159,7 @@ h1:after {
   display: list-item;
   list-style-type: circle;
   padding-right: 40px;
+  cursor: pointer;
 }
 
 .MenuNab {
