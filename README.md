@@ -68,3 +68,12 @@ need to:
 => fix header logo and zoom button positioning
 => incorporate whitespace throughout index.html
 => make css more efficient
+
+Jordan 30.5.22
+
+- Merged branches
+
+to do:
+
+- fix icon display to fill gaps
+- header for discussion board link
