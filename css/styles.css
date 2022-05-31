@@ -187,6 +187,11 @@ h1:after {
     display: flex;
     float: right;
     margin-inline-start: auto;
+    align-content: right;
+    cursor: pointer;
+    margin-right: 2em;
+       
+   
 }
 
 #logohome {
@@ -194,10 +199,6 @@ h1:after {
     max-width: 100px;
 }
 
-.Nav-right {
-    margin: 0 1.5em;
-    cursor: pointer;
-}
 
 
 /* main {
@@ -228,6 +229,8 @@ h1:after {
     list-style-type: none;
     padding-right: 60px;
     size: 50px;
+    cursor: pointer;
+
 }
 
 .buttons {
