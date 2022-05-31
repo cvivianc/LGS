@@ -159,7 +159,6 @@ h1:after {
     width: 100%;
     background-color: #fff;
     height: 8em;
-    justify-content: center;
     align-items: center;
 }
 
@@ -170,15 +169,22 @@ h1:after {
     gap: 2em;
 }
 
-.Nav-right img {
-    width: 60px;
-    height: 60px;
+#help {
+    width: 40%;
     margin-top: 1em;
     margin-right: 1em;
 }
 
+#magnif {
+    width: 60%;
+    margin-top: 1em;
+    margin-right: 2vw
+}
+
 .Nav-right {
-    padding-left: 60vw;
+    display: flex;
+    float: right;
+    margin-inline-start: auto;
 }
 
 #logohome {
