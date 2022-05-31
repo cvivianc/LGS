@@ -158,17 +158,32 @@ h1:after {
     top: 0;
     width: 100%;
     background-color: #fff;
-    overflow: auto;
     height: 8em;
-    line-height: 8em;
+    justify-content: center;
+    align-items: center;
 }
 
 .Nav-left {
-    flex: 1 1 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
 }
 
-.Nav-left>a {
-    margin: 0 1em;
+.Nav-right img {
+    width: 60px;
+    height: 60px;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+.Nav-right {
+    padding-left: 60vw;
+}
+
+#logohome {
+    width: 15vw;
+    max-width: 100px;
 }
 
 
