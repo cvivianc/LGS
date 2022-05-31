@@ -44,16 +44,17 @@ section {
     align-items: center;
     margin: 0 auto 2vh;
 }
-.discussion, 
- section {
-  background: #174063;
-  width: 100%;
-  color: #ffffff;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 auto 4vh;
+
+.discussion,
+section {
+    background: #174063;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto 4vh;
 }
 
 section {
@@ -145,6 +146,7 @@ h1:after {
     color: #222;
 }
 
+
 /* .iconslist {
     display: list-item;
     list-style-type: circle;
@@ -158,24 +160,45 @@ h1:after {
     top: 0;
     width: 100%;
     background-color: #fff;
-    overflow: auto;
     height: 8em;
-    line-height: 8em;
+    align-items: center;
 }
 
 .Nav-left {
-    flex: 1 1 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
 }
 
-.Nav-left>a {
-    margin: 0 1em;
+#help {
+    width: 40%;
+    margin-top: 1em;
+    margin-right: 1em;
 }
 
-.Nav-right{
- margin:0 1.5em;
- cursor: pointer;
-
+#magnif {
+    width: 60%;
+    margin-top: 1em;
+    margin-right: 2vw
 }
+
+.Nav-right {
+    display: flex;
+    float: right;
+    margin-inline-start: auto;
+}
+
+#logohome {
+    width: 15vw;
+    max-width: 100px;
+}
+
+.Nav-right {
+    margin: 0 1.5em;
+    cursor: pointer;
+}
+
 
 /* main {
   width: 90%;
@@ -183,7 +206,6 @@ h1:after {
   padding: 0 0 0;
   
 } */
-
 
 .buttons {
     width: 200px;

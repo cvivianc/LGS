@@ -91,4 +91,13 @@ to do:
 
 - Fixed Images 
 - resized magnifiying glasses and help button
-- Adding padding (rectangle) being discussion page heading on the homepage
+- Adding padding (rectangle) being discussion page heading on the homepage  
+
+**Vivian 31.5.22**  
+:ballot_box_with_check: Done    
+    Align logo with navigation text in tab menu   
+    add enter key to submit from in JS   
+
+:white_square_button: To Do  
+    quite a lot  
+
