@@ -89,4 +89,12 @@ to do:
 
 **Jordan 31/05/22**
 
-- Fixed Images 
+- Fixed Images  
+
+**Vivian 31.5.22**  
+:ballot_box_with_check: Done    
+    Align logo with navigation text in tab menu   
+    add enter key to submit from in JS   
+
+:white_square_button: To Do  
+    quite a lot  
