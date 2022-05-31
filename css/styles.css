@@ -45,7 +45,8 @@ section {
     margin: 0 auto 2vh;
 }
 
-.section2 {
+.discussion,
+section {
     background: #174063;
     width: 100%;
     color: #ffffff;
@@ -53,7 +54,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 auto 2vh;
+    margin: 0 auto 4vh;
 }
 
 section {
@@ -145,12 +146,13 @@ h1:after {
     color: #222;
 }
 
-.iconslist {
+
+/* .iconslist {
     display: list-item;
     list-style-type: circle;
     padding-right: 40px;
     cursor: pointer;
-}
+} */
 
 .MenuNab {
     display: flex;
@@ -192,6 +194,11 @@ h1:after {
     max-width: 100px;
 }
 
+.Nav-right {
+    margin: 0 1.5em;
+    cursor: pointer;
+}
+
 
 /* main {
   width: 90%;
@@ -217,9 +224,10 @@ h1:after {
 
 .icon {
     padding: 100px;
-    display: inline-flex;
+    display: inline-table;
     list-style-type: none;
-    padding-right: 40px;
+    padding-right: 60px;
+    size: 50px;
 }
 
 .buttons {

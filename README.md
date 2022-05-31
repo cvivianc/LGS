@@ -89,7 +89,9 @@ to do:
 
 **Jordan 31/05/22**
 
-- Fixed Images  
+- Fixed Images 
+- resized magnifiying glasses and help button
+- Adding padding (rectangle) being discussion page heading on the homepage  
 
 **Vivian 31.5.22**  
 :ballot_box_with_check: Done    
@@ -98,3 +100,4 @@ to do:
 
 :white_square_button: To Do  
     quite a lot  
+
