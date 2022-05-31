@@ -77,3 +77,7 @@ to do:
 
 - fix icon display to fill gaps
 - header for discussion board link
+
+**Jordan 31/05/22**
+
+- Fixed Images 
