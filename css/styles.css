@@ -45,6 +45,17 @@ section {
     margin: 0 auto 2vh;
 }
 
+.section2 {
+    background: #174063;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto 2vh;
+}
+
 section {
     background: #fff;
     color: #000;
