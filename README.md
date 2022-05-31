@@ -90,3 +90,5 @@ to do:
 **Jordan 31/05/22**
 
 - Fixed Images 
+- resized magnifiying glasses and help button
+- Adding padding (rectangle) being discussion page heading on the homepage
