@@ -57,3 +57,55 @@
 :white_square_button: To Do   
     responsive style  
     finish discussion grid layout  
+
+
+**->29.05.22 Thomas**
+- improved formatting header / footer 
+- 'back to top' button working
+- index.html formatting
+
+need to:
+=> fix header logo and zoom button positioning
+=> incorporate whitespace throughout index.html
+=> make css more efficient
+
+**Jordan 30.5.22**
+
+- Merged branches
+
+to do:
+
+- fix icon display to fill gaps
+
+- header for discussion board link
+
+
+
+**Vivian 30.5.22**  
+:ballot_box_with_check: Done    
+    Made the create post input field work but break all the styles :imp:  
+
+:white_square_button: To Do   
+
+**Jordan 31/05/22**
+
+- Fixed Images 
+- resized magnifiying glasses and help button
+- Adding padding (rectangle) being discussion page heading on the homepage  
+
+**Vivian 31.5.22**  
+:ballot_box_with_check: Done    
+    Align logo with navigation text in tab menu   
+    add enter key to submit from in JS   
+
+:white_square_button: To Do  
+    quite a lot  
+
+**Jordan 01.06.22**
+
+- Adjusted key icons
+- Readujusted Magnif
+
+To Do:
+
+- Help with discussion board page
