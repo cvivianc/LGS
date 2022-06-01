@@ -136,14 +136,19 @@ h1:after {
 }
 
 .discussion {
+
+  
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 0px;
     gap: 55px;
+    /* color: rgba(216, 232, 244, 1);
+    stroke: rgba(68, 102, 130, 1);
+    stroke-width: 4em; */
     font: normal 500 16px "Inter";
-    color: #222;
+     
 }
 
 
@@ -181,6 +186,8 @@ h1:after {
     width: 60%;
     margin-top: 1em;
     margin-right: 2vw
+    cursor: zoom-in;
+    
 }
 
 .Nav-right {
@@ -228,8 +235,35 @@ h1:after {
     display: inline-table;
     list-style-type: none;
     padding-right: 60px;
+    size: 70px;
+    cursor: pointer;
+    margin-left: 5em;
+  
+
+}
+
+.iconB {
+
+    padding: 100px;
+    display: inline-table;
+    list-style-type: none;
+    padding-right: 60px;
     size: 50px;
     cursor: pointer;
+    margin-left: 13em;
+
+}
+
+.iconC {
+
+    padding: 100px;
+    display: inline-table;
+    list-style-type: none;
+    padding-right: 60px;
+    size: 50px;
+    cursor: pointer;
+    margin-left: 11em;
+    
 
 }
 
@@ -267,3 +301,4 @@ h1:after {
     list-style: none;
     align-items: center;
 }
+

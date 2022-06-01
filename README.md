@@ -101,3 +101,11 @@ to do:
 :white_square_button: To Do  
     quite a lot  
 
+**Jordan 01.06.22**
+
+- Adjusted key icons
+- Readujusted Magnif
+
+To Do:
+
+- Help with discussion board page
