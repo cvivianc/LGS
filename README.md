@@ -108,4 +108,13 @@ to do:
 
 To Do:
 
-- Help with discussion board page
+- Help with discussion board page  
+
+**Vivian 01.06.22**  
+:ballot_box_with_check: Done    
+    Found code problems in discussion page  
+    :point_right: <img src="/process/process.3.png" alt="process" width="450" height="270">   
+    Basic flex layout for discussion  
+    Clear input field when submit in JS  
+:white_square_button: To Do  
+    Add chat box when submit in JS  
