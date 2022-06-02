@@ -123,3 +123,7 @@ To Do:
 + Improved formatting and removed unnecessary code
 + flexbox for category icons
 + category icons now all .svg format
+
+**Jordan 02/06/22**
+-  Fixed discussion board button
+- fixed gaps between header and discussion board button
