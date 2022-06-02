@@ -130,3 +130,12 @@ To Do:
 - Fixed gaps between header and discussion board button
 - Got rid of text underlines for links
 
+
+**Vivian 02.06.22**  
+:ballot_box_with_check: Done    
+    Made create post function to work  
+    Fix <input> to <areatext> for text overflow  
+      
+:white_square_button: To Do  
+    Hopefully fix styling for about us 
+    Hopefully reply function JS  
