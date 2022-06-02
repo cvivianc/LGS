@@ -1,61 +1,55 @@
-function addreplybtn() {
-    let addreply = document.createElement('button');
-    const replybtn = document.querySelector('.threads')
-    addreply.className = 'replystyle';
-    replybtn.prepend(addreply);
-}
-
-function addprofileimg() {
-    let addprofile = document.createElement('img');
-    const profileimg = document.querySelector('.threads')
-    addprofile.className = 'profile';
-    addprofile.src = '../img/profile.svg'
-    profileimg.prepend(addprofile);
-}
-
 createbtn.addEventListener('click', function() {
-    // let input = document.getElementById("input");
-    // let create = document.getElementsByClassName('threads')[0];
-    // create.insertAdjacentHTML(
-    //     'afterbegin',
-    //     `<p>${input.value}</p>`
-    // );
+    var postinput = document.getElementById("inputfield");
 
-    // input.value = '';
-    // create.insertAdjacentHTML(
-    //     'afterbegin',
-    // );
+    if (postinput.value === '') {
+        // create alert to prevent empty post
+        alert('Your post is empty!');
+    } else {
+        // library for html html entities 
+        str = new String();
+        str = postinput.value;
+        str = str.replaceAll('<', '&lt;').replaceAll('<', '&gt;');
 
-    var input = document.getElementById("input");
-    let creatpost = document.getElementsByClassName('threads')[0];
-    let post = document.createElement('p');
+        // create post, clone the discussion div in html  doc and change <P> with innerHTML
+        let creatpost = document.getElementById('posttemplate');
+        let newpost = creatpost.cloneNode(true);
+        newpost.id = null;
+        newpost.childNodes.item(3).innerHTML = str;
+        creatpost.parentNode.prepend(newpost);
 
-    post.textContent = input.value;
-    creatpost.prepend(post);
-    addreplybtn();
-    addprofileimg();
-    input.value = '';
+        // delete input after post
+        postinput.value = '';
 
-});
-
-
-
-var element = document.getElementById("input");
-
-element.addEventListener("keypress", function(event) {
-    if (event.key === "Enter") {
-        var postenter = document.getElementById("input");
-        console.log(postenter.value);
-        postenter.value = '';
     }
 
 });
 
-// btncreate.addEventListener('click', () => {
-//     let creatpost = document.getElementsByTagName('p')[0];
-//     const input = document.querySelector('.createfield');
-//     let post = document.createElement('p');
-//     post.textContent = input.value;
-//     creatpost.appendChild(li);
-//     input.value = '';
+// const replybtn = document.querySelector('.replybtnjs');
+
+// replybtn.addEventListener('click', function() {
+//     var replyinput = document.getElementById("replyinput");
+//     let createreply = document.getElementById('replytemplate');
+//     let newreply = createreply.cloneNode(true);
+//     newreply.id = null;
+//     newreply.childNodes.item(3).innerHTML = replyinput.value;
+
+
+//     // creatpost.parentNode.prepend(newpost);
+//     // postinput.value = '';
+// });
+
+
+
+
+// var element = document.getElementById("input");
+
+// element.addEventListener("keypress", function(event) {
+//     if (event.key === "Enter") {
+//         var postenter = document.getElementById("input");
+//         console.log(postenter.value);
+//         postenter.value = '';
+//     }
+
+
+
 // });
