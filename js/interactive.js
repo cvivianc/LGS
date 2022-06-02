@@ -1,7 +1,7 @@
 createbtn.addEventListener('click', function() {
     var post = document.getElementById("input");
     console.log(post.value);
-    post.value='';
+    post.value = '';
 
 });
 
@@ -13,7 +13,7 @@ element.addEventListener("keypress", function(event) {
     if (event.key === "Enter") {
         var postenter = document.getElementById("input");
         console.log(postenter.value);
-        postenter.value='';
+        postenter.value = '';
     }
 
 
