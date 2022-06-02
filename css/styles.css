@@ -1,259 +1,267 @@
-    /* Global text styles */
-    
-    html,
-    body {
-        height: 100%;
-    }
-    
-    body {
-        margin-top: 8em;
-    }
-    
-    .links {
-        font: normal 600 1em "Inter";
-        color: #222222;
-    }
-    
-    #paragraph p {
-        font: normal 400 1em "Inter";
-        line-height: 150%;
-        color: #222;
-    }
-    
-    p {
-        font: normal 600 1.5em "Inter";
-        line-height: 29px;
-    }
-    
-    h1 {
-        font: normal 700 3em "Inter";
-    }
-    
-    header {
-        background: #4e96cf;
-        width: 100%;
-        color: #ffffff;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0 auto 2vh;
-    }
-    
-    section {
-        background: #fff;
-        color: #000;
-    }
-    
-    h1:after {
-        /* yellow line */
-        content: "";
-        display: block;
-        width: 10em;
-        max-width: 70%;
-        border-bottom: 0.2em solid #f3c577;
-        border-radius: 5px;
-        margin: 0.5em auto -0.2em;
-        stroke-linejoin: round;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-    /* FORUM STYLES NOT FINISHED*/
-    
-    .profile {
-        width: 55px;
-        height: 55px;
-    }
-    
-    textarea {
-        margin: 3vh auto;
-        font: normal 500 1.5em "Inter";
-        border: 8px solid #446682;
-        /* filter: drop-shadow(0px 3.51394px 3.51394px rgba(0, 0, 0, 0.25)); */
-        border-radius: 30px;
-        padding: 1em 40vw 15vh 0.5em;
-        align-items: center;
-        resize: none;
-        border-radius: 30px;
-    }
-    
-    #createbtn {
-        height: 200px;
-        width: 200px;
-        border: none;
-        cursor: pointer;
-        background: url("../img/createpost.svg") no-repeat center;
-        background-size: contain;
-        position: absolute;
-        bottom: 10px;
-        right: 10px;
-    }
-    
-    .replystyle {
-        height: 180px;
-        width: 180px;
-        border: none;
-        cursor: pointer;
-        background: url("../img/reply.svg") no-repeat center;
-        background-size: contain;
-    }
-    
-    .createfield {
-        margin: 0 auto 2vh;
-        display: block;
-        position: relative;
-    }
-    
-    .threads p {
-        background: #D8E8F4;
-        border: 8px solid #446682;
-        box-shadow: 0px 3.5px 3.5px rgba(0, 0, 0, 0.25);
-        border-radius: 15px;
-        padding: 1rem;
-        margin: 40px 30px;
-        width: 800px;
-    }
-    
-    .discussion {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .ForumArea {
-        margin: 0 20%;
-    }
-    /* FORUM STYLES END */
-    
-    .BackTop {
-        display: flex;
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        z-index: 99;
-    }
-    
-    .MenuNab {
-        display: flex;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        background-color: #fff;
-        height: 8em;
-        align-items: center;
-        z-index: 2;
-    }
-    
-    .Nav-left {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 2em;
-    }
-    
-    #help {
-        width: 40%;
-        margin-top: 1em;
-        margin-right: 1em;
-    }
-    
-    #magnif {
-        width: 60%;
-        margin-top: 1em;
-        margin-right: 2vw;
-        cursor: zoom-in;
-    }
-    
-    .Nav-right {
-        display: flex;
-        float: right;
-        margin-inline-start: auto;
-        align-content: right;
-        cursor: pointer;
-        margin-right: 2em;
-    }
-    
-    #logohome {
-        width: 15vw;
-        max-width: 100px;
-    }
-    
-    .icon-grp {
-        display: flex;
-        justify-content: center;
-    }
-    
-    .row-1 {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        max-width: 1000px;
-    }
-    
-    .icon {
-        width: 10em;
-        height: 10em;
-        margin: 2em 4em;
-        cursor: pointer;
-    }
-    
-    footer {
-        text-align: center;
-        background: #446682;
-    }
-    
-    footer nav {
-        padding-top: 20px;
-        padding-bottom: 20px;
-        text-align: center;
-        font: normal 600 1.5em "Inter";
-        text-transform: uppercase;
-    }
-    
-    footer a {
-        padding: 1rem;
-        color: #FFFFFF;
-        margin: auto;
-    }
-    
-    .centre {
-        display: block;
-        margin: auto;
-        padding-bottom: 20px;
-    }
-    /* footer styles end */
-    
-    .DBButton {
-        width: 300px;
-        height: 100px;
-        border-radius: 12px;
-        margin: 30px;
-        margin-left: 23.5em;
-        background-color: rgba(251, 220, 126, 1);
-        border: none;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        color: #000;
-        text-decoration: none;
-        font-size: 24px;
-        cursor: pointer;
-    }
-    /* Stops links from being underlined */
-    
-    a:link {
-        text-decoration: none;
-    }
-    
-    a:visited {
-        text-decoration: none;
-    }
-    
-    a:hover {
-        text-decoration: underline;
-    }
-    
-    a:active {
-        text-decoration: underline;
-    }
+  /* Global text styles */
+  
+  html,
+  body {
+      height: 100%;
+  }
+  
+  body {
+      margin-top: 8em;
+  }
+  
+  .links {
+      font: normal 600 1em "Inter";
+      color: #222222;
+  }
+  
+  #paragraph p {
+      font: normal 400 1em "Inter";
+      line-height: 150%;
+      color: #222;
+  }
+  
+  p {
+      font: normal 600 1.5em "Inter";
+      line-height: 29px;
+  }
+  
+  h1 {
+      font: normal 700 3em "Inter";
+  }
+  
+  header {
+      background: #4e96cf;
+      width: 100%;
+      color: #ffffff;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto 2vh;
+  }
+  
+  section {
+      background: #fff;
+      color: #000;
+  }
+  
+  h1:after {
+      /* yellow line */
+      content: "";
+      display: block;
+      width: 10em;
+      max-width: 70%;
+      border-bottom: 0.2em solid #f3c577;
+      border-radius: 5px;
+      margin: 0.5em auto -0.2em;
+      stroke-linejoin: round;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  /* FORUM STYLES NOT FINISHED*/
+  
+  #posttemplate {
+      display: none;
+  }
+  
+  #replytemplate {
+      display: none;
+  }
+  
+  .profile {
+      width: 55px;
+      height: 55px;
+  }
+  
+  textarea {
+      margin: 3vh auto;
+      font: normal 500 1.5em "Inter";
+      border: 8px solid #446682;
+      /* filter: drop-shadow(0px 3.51394px 3.51394px rgba(0, 0, 0, 0.25)); */
+      border-radius: 30px;
+      padding: 1em 40vw 15vh 0.5em;
+      align-items: center;
+      resize: none;
+      border-radius: 30px;
+  }
+  
+  #createbtn {
+      height: 200px;
+      width: 200px;
+      border: none;
+      cursor: pointer;
+      background: url("../img/createpost.svg") no-repeat center;
+      background-size: contain;
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+  }
+  
+  .replystyle {
+      height: 180px;
+      width: 180px;
+      border: none;
+      cursor: pointer;
+      background: url("../img/reply.svg") no-repeat center;
+      background-size: contain;
+  }
+  
+  .createfield {
+      margin: 0 auto 2vh;
+      display: block;
+      position: relative;
+  }
+  
+  .threads p {
+      background: #D8E8F4;
+      border: 8px solid #446682;
+      box-shadow: 0px 3.5px 3.5px rgba(0, 0, 0, 0.25);
+      border-radius: 15px;
+      padding: 1rem;
+      margin: 40px 30px;
+      width: 800px;
+  }
+  
+  .discussion {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .ForumArea {
+      margin: 0 20%;
+  }
+  /* FORUM STYLES END */
+  
+  .BackTop {
+      display: flex;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 99;
+  }
+  
+  .MenuNab {
+      display: flex;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #fff;
+      height: 8em;
+      align-items: center;
+      z-index: 2;
+  }
+  
+  .Nav-left {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 2em;
+  }
+  
+  #help {
+      width: 40%;
+      margin-top: 1em;
+      margin-right: 1em;
+  }
+  
+  #magnif {
+      width: 60%;
+      margin-top: 1em;
+      margin-right: 2vw;
+      cursor: zoom-in;
+  }
+  
+  .Nav-right {
+      display: flex;
+      float: right;
+      margin-inline-start: auto;
+      align-content: right;
+      cursor: pointer;
+      margin-right: 2em;
+  }
+  
+  #logohome {
+      width: 15vw;
+      max-width: 100px;
+  }
+  
+  .icon-grp {
+      display: flex;
+      justify-content: center;
+  }
+  
+  .row-1 {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      max-width: 1000px;
+  }
+  
+  .icon {
+      width: 10em;
+      height: 10em;
+      margin: 2em 4em;
+      cursor: pointer;
+  }
+  
+  footer {
+      text-align: center;
+      background: #446682;
+  }
+  
+  footer nav {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-align: center;
+      font: normal 600 1.5em "Inter";
+      text-transform: uppercase;
+  }
+  
+  footer a {
+      padding: 1rem;
+      color: #FFFFFF;
+      margin: auto;
+  }
+  
+  .centre {
+      display: block;
+      margin: auto;
+      padding-bottom: 20px;
+  }
+  /* footer styles end */
+  
+  .DBButton {
+      width: 300px;
+      height: 100px;
+      border-radius: 12px;
+      margin: 30px;
+      margin-left: 23.5em;
+      background-color: rgba(251, 220, 126, 1);
+      border: none;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      color: #000;
+      text-decoration: none;
+      font-size: 24px;
+      cursor: pointer;
+  }
+  /* Stops links from being underlined */
+  
+  a:link {
+      text-decoration: none;
+  }
+  
+  a:visited {
+      text-decoration: none;
+  }
+  
+  a:hover {
+      text-decoration: underline;
+  }
+  
+  a:active {
+      text-decoration: underline;
+  }

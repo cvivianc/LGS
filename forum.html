@@ -33,11 +33,23 @@
 
         <div class="ForumArea">
             <section class="createfield">
-                <textarea type="text" id="input" placeholder="Type Something......" rows="4"></textarea>
+                <textarea type="text" id="inputfield" placeholder="Type Something......" rows="4"></textarea>
                 <button class="creatpost" id="createbtn"></button>
             </section>
 
             <section class="threads">
+
+                <div class="discussion" id="posttemplate">
+                    <img src="img/profile.svg" alt="profile photo" class="profile" />
+                    <p aria-live="polite" class="postinput"></p>
+                    <button class="replystyle" class="replybtnjs"></button>
+                </div>
+
+                <div class="discussion" class="reply" id="replytemplate">
+                    <img src="img/profile.svg" alt="profile photo" class="profile" />
+                    <textarea type="text" id="replyinput" placeholder="Type your reply......" rows="4" class="replybtnjs"></textarea>
+                </div>
+
                 <div class="discussion">
                     <img src="img/profile.svg" alt="profile photo" class="profile" />
                     <p aria-live="polite">Thoughts on the new Apple software update?</p>
