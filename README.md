@@ -125,5 +125,7 @@ To Do:
 + category icons now all .svg format
 
 **Jordan 02/06/22**
+**(Generally CSS issues)**
 -  Fixed discussion board button
-- fixed gaps between header and discussion board button
+- Fixed gaps between header and discussion board button
+- Got rid of text underlines for links
