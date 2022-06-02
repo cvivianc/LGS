@@ -1,5 +1,9 @@
 /* Global text styles */
 
+html, body {
+  height: 100%;
+}
+
 body {
   margin-top: 8em;
 }
@@ -179,73 +183,31 @@ align-items: center;
   max-width: 100px;
 }
 
+.icon-grp {
+  display: flex;
+  justify-content: center;
+}
 
-.buttons {
-    width: 200px;
-    height: 100px;
-    border-radius: 12px;
-    margin: 5px;
-    background-color: rgba(251, 220, 126, 1);
-    border: none;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    color: #000;
-    text-align: center;
-    text-decoration: thick;
-    font-size: 20px;
-    margin: auto;
+.row-1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  max-width: 1000px;
 }
 
 .icon {
-  padding: 100px;
-  display: inline-table;
-  list-style-type: none;
-  padding-right: 60px;
-  size: 70px;
+  width: 10em;
+  height: 10em;
+  margin: 2em 4em;
   cursor: pointer;
-  margin-left: 5em;
 }
-
-.iconB {
-  padding: 100px;
-  display: inline-table;
-  list-style-type: none;
-  padding-right: 60px;
-  size: 50px;
-  cursor: pointer;
-  margin-left: 13em;
-}
-
-.iconC {
-  padding: 100px;
-  display: inline-table;
-  list-style-type: none;
-  padding-right: 60px;
-  size: 50px;
-  cursor: pointer;
-  margin-left: 11em;
-}
-
-.buttons {
-  display: inline-flex;
-  list-style-type: none;
-  width: 80px;
-  height: 40px;
-  margin: 5px;
-  padding: 2px;
-  color: #000;
-  border: none;
-  cursor: pointer;
-  text-align: center;
-  font: normal 600 1em "Inter";
-}
-
-/* footer styles */
 
 footer {
   text-align: center;
-  
-background: #446682;
-
+  background: #446682;
 }
 
 footer nav {
@@ -254,8 +216,6 @@ footer nav {
   text-align: center;
   font: normal 600 1.5em "Inter";
   text-transform: uppercase;
-
-
 }
 
 footer a{
@@ -267,7 +227,7 @@ footer a{
 .centre {
   display: block;
   margin: auto;
-  padding-bottom: 20px ;;
+  padding-bottom: 20px;
 }
 
 /* footer styles end */
@@ -281,11 +241,9 @@ footer a{
   border: none;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: #000;
-  text-align: center;
-  text-decoration: none;
+  /* text-align: center; */
+  /* text-decoration: none; */
   font-size: 24px;
   cursor: pointer;
-  list-style: none;
-  align-items: center;
+  /* list-style: none; */
 }
-

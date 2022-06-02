@@ -118,3 +118,8 @@ To Do:
     Clear input field when submit in JS  
 :white_square_button: To Do  
     Add chat box when submit in JS  
+
+**Thomas 02/06/22**
++ Improved formatting and removed unnecessary code
++ flexbox for category icons
++ category icons now all .svg format
