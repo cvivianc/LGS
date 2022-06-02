@@ -66,7 +66,7 @@ h1:after {
     height: 55px;
 }
 
-#input {
+textarea {
     margin: 3vh auto;
     font: normal 500 1.5em "Inter";
     border: 8px solid #446682;
@@ -74,6 +74,7 @@ h1:after {
     border-radius: 30px;
     padding: 1em 40vw 15vh 0.5em;
     align-items: center;
+    resize: none;
 }
 
 #createbtn {
@@ -103,7 +104,7 @@ h1:after {
     position: relative;
 }
 
-.discussion p {
+.threads p {
     background: #D8E8F4;
     border: 8px solid #446682;
     box-shadow: 0px 3.5px 3.5px rgba(0, 0, 0, 0.25);
