@@ -1,7 +1,10 @@
 createbtn.addEventListener('click', function() {
-    var post = document.getElementById("input");
-    console.log(post.value);
-    post.value = '';
+    var input = document.getElementById("input");
+    let creatpost = document.getElementsByTagName('p')[0];
+    let post = document.createElement('p');
+    post.textContent = input.value;
+    creatpost.appendChild(post);
+    input.value = '';
 
 });
 
@@ -15,6 +18,13 @@ element.addEventListener("keypress", function(event) {
         console.log(postenter.value);
         postenter.value = '';
     }
-
-
 });
+
+// btncreate.addEventListener('click', () => {
+//     let creatpost = document.getElementsByTagName('p')[0];
+//     const input = document.querySelector('.createfield');
+//     let post = document.createElement('p');
+//     post.textContent = input.value;
+//     creatpost.appendChild(li);
+//     input.value = '';
+// });
