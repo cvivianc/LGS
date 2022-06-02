@@ -1,10 +1,22 @@
+function createprofile() {
+    let profileimg = document.createElement('img');
+    let div = document.getElementsByClassName('discussion');
+    profileimg.className = 'profile';
+    profileimg.src = 'img/profile.svg';
+    div.appendChild(profileimg);
+}
+
+
 createbtn.addEventListener('click', function() {
     var input = document.getElementById("input");
     let creatpost = document.getElementsByTagName('p')[0];
     let post = document.createElement('p');
+
     post.textContent = input.value;
     creatpost.appendChild(post);
+    createprofile();
     input.value = '';
+
 
 });
 
