@@ -69,12 +69,17 @@ h1:after {
     z-index: 99;
 }
 
+.Discuss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .DBButton {
     width: 300px;
     height: 100px;
     border-radius: 12px;
     margin: 30px;
-    margin-left: 23.5em;
     background-color: rgba(251, 220, 126, 1);
     border: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
