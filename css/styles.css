@@ -59,7 +59,39 @@ h1:after {
 }
 
 
-/* FORUM STYLES NOT FINISHED*/
+
+/* General buttons */
+
+.BackTop {
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+}
+
+.Discuss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.DBButton {
+    width: 300px;
+    height: 100px;
+    border-radius: 12px;
+    margin: 30px;
+    background-color: rgba(251, 220, 126, 1);
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #000;
+    text-decoration: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+/* FORUM STYLES*/
 
 #posttemplate {
     display: none;
@@ -74,21 +106,40 @@ h1:after {
     height: 55px;
 }
 
+
+.createfield {
+    margin: 0 auto 2vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+}
+
 textarea {
+    display: grid;
+    grid-column: 1;
     margin: 3vh auto;
     font: normal 500 1.5em "Inter";
     border: 8px solid #446682;
     /* filter: drop-shadow(0px 3.51394px 3.51394px rgba(0, 0, 0, 0.25)); */
     border-radius: 30px;
-    padding: 1em 40vw 15vh 0.5em;
+
+    padding: 0.7em;
+    width: 55vw;
+    height: 12vw;
     align-items: center;
     resize: none;
     border-radius: 30px;
 }
 
 #createbtn {
+
+    display: grid;
+    grid-column: 2;
+    align-self: end;
     height: 200px;
     width: 200px;
+    margin-left: -240px;
+    margin-bottom: -35px;
     border: none;
     cursor: pointer;
     background: url("../img/createpost.svg") no-repeat center;
@@ -132,10 +183,16 @@ textarea {
 
 .ForumArea {
     margin: 0 20%;
+    display: flex;
+    flex-direction: column;
+
 }
 
 
 /* FORUM STYLES END */
+
+
+/* NAV STYLES */
 
 .BackTop {
     display: flex;
@@ -144,7 +201,6 @@ textarea {
     right: 20px;
     z-index: 99;
 }
-
 .MenuNab {
     display: flex;
     position: fixed;
@@ -189,7 +245,10 @@ textarea {
     width: 15vw;
     max-width: 100px;
 }
+/* NAV STYLES END */
 
+
+/* NAV ICONS */
 .icon-grp {
     display: flex;
     justify-content: center;
@@ -212,6 +271,10 @@ textarea {
     cursor: pointer;
 }
 
+/* NAV ICONS END*/
+
+
+/* FOOTER STYLES */
 footer {
     text-align: center;
     background: #446682;
@@ -237,23 +300,7 @@ footer a {
     padding-bottom: 20px;
 }
 
-
-/* footer styles end */
-
-.DBButton {
-    width: 300px;
-    height: 100px;
-    border-radius: 12px;
-    margin: 30px;
-    margin-left: 23.5em;
-    background-color: rgba(251, 220, 126, 1);
-    border: none;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    color: #000;
-    text-decoration: none;
-    font-size: 24px;
-    cursor: pointer;
-}
+/* FOOTER STYLES END */
 
 
 /* Stops links from being underlined */
