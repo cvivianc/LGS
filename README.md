@@ -6,7 +6,6 @@ We wish to provide as much information as possible to help make all users confid
 
 :construction_worker: :construction_worker_woman:  **Contributors**   
 
-@JordySandra  
-@cvivianc  
+@JordySandra   
+@cvivianc   
 @tho888  
- 
