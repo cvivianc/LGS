@@ -12,3 +12,12 @@ We wish to provide as much information as possible to help make all users confid
 
 [tho888](https://github.com/tho888)  Thomas  
 
+
+**Vivian 02.06.22**  
+:ballot_box_with_check: Done    
+    Made create post function to work  
+    Fix <input> to <areatext> for text overflow  
+      
+:white_square_button: To Do  
+    Hopefully fix styling for about us 
+    Hopefully reply function JS  

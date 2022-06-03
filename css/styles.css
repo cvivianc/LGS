@@ -59,6 +59,7 @@ h1:after {
 }
 
 
+
 /* General buttons */
 
 .BackTop {
@@ -105,6 +106,7 @@ h1:after {
     height: 55px;
 }
 
+
 .createfield {
     margin: 0 auto 2vh;
     display: grid;
@@ -120,6 +122,7 @@ textarea {
     border: 8px solid #446682;
     /* filter: drop-shadow(0px 3.51394px 3.51394px rgba(0, 0, 0, 0.25)); */
     border-radius: 30px;
+
     padding: 0.7em;
     width: 55vw;
     height: 12vw;
@@ -129,6 +132,7 @@ textarea {
 }
 
 #createbtn {
+
     display: grid;
     grid-column: 2;
     align-self: end;
@@ -140,6 +144,9 @@ textarea {
     cursor: pointer;
     background: url("../img/createpost.svg") no-repeat center;
     background-size: contain;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
 
 .replystyle {
@@ -149,6 +156,12 @@ textarea {
     cursor: pointer;
     background: url("../img/reply.svg") no-repeat center;
     background-size: contain;
+}
+
+.createfield {
+    margin: 0 auto 2vh;
+    display: block;
+    position: relative;
 }
 
 .threads p {
@@ -172,6 +185,7 @@ textarea {
     margin: 0 20%;
     display: flex;
     flex-direction: column;
+
 }
 
 
@@ -180,6 +194,13 @@ textarea {
 
 /* NAV STYLES */
 
+.BackTop {
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+}
 .MenuNab {
     display: flex;
     position: fixed;
@@ -224,13 +245,10 @@ textarea {
     width: 15vw;
     max-width: 100px;
 }
-
-
 /* NAV STYLES END */
 
 
 /* NAV ICONS */
-
 .icon-grp {
     display: flex;
     justify-content: center;
@@ -253,12 +271,10 @@ textarea {
     cursor: pointer;
 }
 
-
 /* NAV ICONS END*/
 
 
 /* FOOTER STYLES */
-
 footer {
     text-align: center;
     background: #446682;
@@ -283,7 +299,6 @@ footer a {
     margin: auto;
     padding-bottom: 20px;
 }
-
 
 /* FOOTER STYLES END */
 

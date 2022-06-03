@@ -1,3 +1,4 @@
+
 var postinputbtn = document.getElementById("inputfield");
 
 postinputbtn.addEventListener("keypress", function(event) {
@@ -32,3 +33,4 @@ createbtn.addEventListener("click", function() {
         postinput.value = "";
     }
 });
+
